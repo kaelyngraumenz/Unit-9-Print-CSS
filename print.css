@@ -1,0 +1,25 @@
+img{
+  display:none;
+}
+p{
+  text: 1.25em;
+}
+background{
+  color: white;
+}
+text{
+  color: black;
+}
+.news{
+  display:none;
+}
+#nav{
+  display: none;
+}
+#sidebar{
+  display:none;
+}
+@media print {
+  a::after{
+    content: " (" attr(href) ") ";
+  }
